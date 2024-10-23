@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dofus PL Liste Clients</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="scripts/script.js" defer></script>
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Getion Client PL DOFUS</h1>
+        </header>
+        <main>
+            <h1 style="text-align: center;">Tableau des Clients</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom du Client</th>
+                        <th>Nombre de CBT</th>
+                    </tr>
+                </thead>
+                <tbody id="clientTableBody">
+                    <!-- Les lignes seront ajoutées ici par JavaScript -->
+                </tbody>
+            </table>
+            <div class="btnCbtEnd">
+                <button onclick="decreaseAll()">Combat TERMINE</button>
+            </div>
+        </main>
+        <footer>
+            @Copyright Huli
+        </footer>
+    </body>
+</html>
